@@ -1,0 +1,33 @@
+.sidebar {
+  height: 100%;
+  background: #ffbf00;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  z-index: 100;
+}
+
+.sidebar-item:active {
+  background: #8b008b;
+  color: white;
+}
+
+.sidebar-item{
+  background: whitesmoke;
+  color:black;
+}
+
+.sidebar-item :hover {
+  background: #8b008b;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar-header {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px black ;
+}
